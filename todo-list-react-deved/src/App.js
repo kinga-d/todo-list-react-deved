@@ -37,7 +37,7 @@ function App() {
   return (
       <div className="App">
           <header>
-              <h1>Add your tasks</h1>
+              <h1>Dodaj zadanie</h1>
           </header>
           <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText} setStatus={setStatus} />
           <TodoList filteredTodos={filteredTodos} setTodos={setTodos} todos={todos} />

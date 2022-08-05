@@ -80,7 +80,16 @@ form {
 }
 
 .complete-btn {
-	background: #56ffac;
+	background: #5afe87;
+}
+
+.trash-btn:hover {
+	background: #73d8fe;
+	
+}
+
+.complete-btn:hover {
+	background: #8dfeac;
 }
 
 .fa-trash-can, .fa-circle-check {

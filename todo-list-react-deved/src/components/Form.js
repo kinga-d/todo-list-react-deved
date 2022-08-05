@@ -21,13 +21,13 @@ const Form = ({ inputText, setInputText, todos, setTodos, setStatus }) => { //pr
         <form>
             <input value={inputText} onChange={inputTexthandler} type="text" className="todo-input" />
             <button onClick={submitTodoHandler} className="todo-button" type="submit">
-                <i className="fa-solid fa-cat"></i>
+                <i className="fa-solid fa-calendar-plus"></i>
             </button>
             <div onChange={statusHandler} className="select">
                 <select name="todos" className="filter-todo">
-                    <option value="all">All</option>
-                    <option value="completed">Completed</option>
-                    <option value="uncompleted">Uncompleted</option>
+                    <option value="all">Wszystkie</option>
+                    <option value="completed">Gotowe</option>
+                    <option value="uncompleted">Do zrobienia</option>
                 </select>
             </div>
         </form>
